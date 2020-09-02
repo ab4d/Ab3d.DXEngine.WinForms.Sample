@@ -8,11 +8,6 @@ To see demonstraiton of all features of the Ab3d.DXEngine see the [Main WPF Ab3d
 
 Both Ab3d.DXEngine and Ab3d.PowerToys are commercial libraries. You can start a 60-day trial when they are first used.
 
-## Repository solutions
-
-The Ab3d.DXEngine.Wpf.Samples repository contains two Visual Studio solutions:
-* Ab3d.DXEngine MAIN SAMPLES.sln (**.NET Framework 4.5**)
-* Ab3d.DXEngine MAIN SAMPLES core3.sln (**.NET Core 3.0**)
 
 ## Dependencies
 
