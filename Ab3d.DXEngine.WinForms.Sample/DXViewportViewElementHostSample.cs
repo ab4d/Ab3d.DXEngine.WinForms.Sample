@@ -116,25 +116,14 @@ namespace Ab3d.DXEngine.WinForms.Sample
             rootGrid.Children.Add(mouseCameraController);
 
 
-            var viewCubeCameraController = new ViewCubeCameraController()
+            var cameraNavigationCircles = new CameraNavigationCircles()
             {
                 TargetCamera        = _targetPositionCamera,
                 VerticalAlignment   = VerticalAlignment.Bottom,
                 HorizontalAlignment = HorizontalAlignment.Left
             };
 
-            rootGrid.Children.Add(viewCubeCameraController);
-
-
-            // ViewCubeCameraController is shown instead of CameraAxisPanel
-            //var cameraAxisPanel = new CameraAxisPanel()
-            //{
-            //    TargetCamera = _targetPositionCamera,
-            //    VerticalAlignment = VerticalAlignment.Bottom,
-            //    HorizontalAlignment = HorizontalAlignment.Left
-            //};
-
-            //rootGrid.Children.Add(cameraAxisPanel);
+            rootGrid.Children.Add(cameraNavigationCircles);
 
 
             // Add sample 3D objects to wpfViewport3D
